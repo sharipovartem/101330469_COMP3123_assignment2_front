@@ -22,7 +22,7 @@ const Signup = () => {
     const handleSubmit = async(e) =>{
         e.preventDefault();
         try {
-            const url ="http://localhost:8080/api/users"
+            const url ="https://101330469-comp-3123-assignment2-server-njh7r8g8a-sharipovartem.vercel.app/api/users"
             const {data: res} = await axios.post(url, data);
             navigate("/login")
             console.log(res.message);

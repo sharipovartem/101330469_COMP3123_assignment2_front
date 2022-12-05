@@ -9,7 +9,7 @@ const Main = () => {
     return(
         <div className={styles.main_container}>
             <nav className={styles.navbar}>
-                <h1>Fakebook</h1>
+                <h1>Assignment 2 FullStack</h1>
                 <button className={styles.white_btn} onClick={handleLogout}>Logout</button>
             </nav>
         </div>
